@@ -16,7 +16,7 @@ return {
   description = "Add Robot to Group", 
   usage = "/add (link) : add bot to group",
   patterns = {
-    "^[!/]add (.*)$"
+    "^[#!/]add (.*)$"
   }, 
   run = run
 }
