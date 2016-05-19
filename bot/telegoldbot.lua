@@ -259,14 +259,28 @@ function create_config( )
     "welcome",
     "webshot",
     "voice",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     },
-    sudo_users = {179071599},--Sudo users
+    sudo_users = {101564409},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[ ]],
     help_text = [[ ]],
 	help_text_super =[[
-🚀 Avira SuperGroup Commands:
+🚀 telegold SuperGroup Commands:
 
 !owner
 دریافت آیدی مدیر اصلی گروه
@@ -434,6 +448,8 @@ function create_config( )
 
 !gold
 گرفتن اطلاعات ربات
+
+@Tele_Gold_bots
 ]],
   }
   serialize_to_file(config, './data/config.lua')
