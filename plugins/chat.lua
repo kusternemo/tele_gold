@@ -53,6 +53,9 @@ end
 if msg.text == "نووا" then
 	return "چس اسپمر نگاییدم"
 end
+if msg.text == "تله گلد" then
+	return reply_msg(msg.id, "بلی؟", ok_cb, false)
+end
 if msg.text == "nova" then
 	return "چس اسپمر نگاییدم"
 end
@@ -100,6 +103,7 @@ return {
 		"^[Hh]i$",
 		"^[Hh]ello$",
 		"^[Xx]y$",
+		"^تله گلد$",
 		"^ممشوتک$",
    "^نوا$",
    "^نووا$",
