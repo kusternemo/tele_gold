@@ -263,16 +263,19 @@ function create_config( )
     "updater",
     "remmsg",
     "txt2img",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "tagall",
+    "anti_bot",
+    "add_plug",
+    "add_sudu",
+    "anti_tag",
+    "antispam_pv",
+    "antixy",
+    "sticker-info",
+    "addsansi",
+    "text_sticker",
+    "apk",
+    "figlet",
+    "shortlink"
     },
     sudo_users = {101564409},--Sudo users
     moderation = {data = 'data/moderation.json'},
@@ -448,6 +451,9 @@ function create_config( )
 
 !gold
 گرفتن اطلاعات ربات
+
+!mean کلمه
+معنی کلمه
 
 @Tele_Gold_bots
 ]],
