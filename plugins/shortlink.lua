@@ -12,7 +12,8 @@ local function run(msg, matches)
 
 return {
   patterns = {
-  "^[/!]stlink (.*)$"
+  "^لینک کوتاه (.*)$",
+  "^[/!]shortlink (.*)$"
   },
   run = run,
 }
