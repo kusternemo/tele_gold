@@ -263,6 +263,7 @@ function create_config( )
     "updater",
     "remmsg",
     "txt2img",
+    "tr",
     "tagall",
     "anti_bot",
     "add_plug",
@@ -275,7 +276,11 @@ function create_config( )
     "text_sticker",
     "apk",
     "figlet",
-    "shortlink"
+    "shortlink",
+    "Wai",
+    "mane",
+    "reload",
+    "chat"
     },
     sudo_users = {101564409},--Sudo users
     moderation = {data = 'data/moderation.json'},
